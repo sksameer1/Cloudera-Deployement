@@ -2,6 +2,15 @@
 		Cloudera Enterprise - Deployment
 ******************************************************************
 
+
+ami-09456e8683eb4d259
+(oregon)
+ami-0ea6ebbac3980d5c2
+(N.Virginia)
+ami-004fe9bbe8ddd17a8
+(N. California)
+
+
 Start a instance with minimum 8 GB ram (preferably m4.large)
 
 In seccurity group - Select "Default" security group
