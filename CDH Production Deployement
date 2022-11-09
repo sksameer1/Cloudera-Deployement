@@ -303,6 +303,10 @@ mysql> CREATE USER 'cm'@'localhost' IDENTIFIED BY 'password';
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'cm'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
 mysql> exit;
 
+
+####    its create schema for mysql -  for mysql for itseld ######
+
+
 sudo /opt/cloudera/cm/schema/scm_prepare_database.sh -p mysql cmdb cm password
 
 ##### Start the Cloudera Manager Server #####
