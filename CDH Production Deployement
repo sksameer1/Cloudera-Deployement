@@ -350,23 +350,23 @@ mysql -u root -p
 >> For reports manager
 
 mysql> create database rman DEFAULT CHARACTER SET utf8;
-mysql> CREATE USER 'rman'@'ip-10-0-1-65.ec2.internal' IDENTIFIED BY 'password';
+mysql> CREATE USER 'rman'@'ip-10-0-1-218.ec2.internal' IDENTIFIED BY 'password';
 (Note : Enter pri-dns of host where the particular service is running)
-mysql> grant all on rman.* TO 'rman'@'ip-10-0-1-65.ec2.internal' IDENTIFIED BY 'password';
+mysql> grant all on rman.* TO 'rman'@'ip-10-0-1-218.ec2.internal' IDENTIFIED BY 'password';
 
 
 >> For Hive
 
 mysql> create database metastore DEFAULT CHARACTER SET utf8;
-mysql> CREATE USER 'hive'@'ip-10-0-1-182.ec2.internal' IDENTIFIED BY 'password';
-mysql> grant all on metastore.* TO 'hive'@'ip-10-0-1-182.ec2.internal' IDENTIFIED BY 'password';
+mysql> CREATE USER 'hive'@'ip-10-0-1-186.ec2.internal' IDENTIFIED BY 'password';
+mysql> grant all on metastore.* TO 'hive'@'ip-10-0-1-186.ec2.internal' IDENTIFIED BY 'password';
 
 
 >> For Oozie
 
 mysql> create database oozie default character set utf8;
-mysql> CREATE USER 'oozie'@'ip-10-0-1-182.ec2.internal' IDENTIFIED BY 'password';
-mysql> grant all privileges on oozie.* to 'oozie'@'ip-10-0-1-182.ec2.internal' identified by 'password';
+mysql> CREATE USER 'oozie'@'ip-10-0-1-186.ec2.internal' IDENTIFIED BY 'password';
+mysql> grant all privileges on oozie.* to 'oozie'@'ip-10-0-1-186.ec2.internal' identified by 'password';
 
 == Add mysql driver jar
 
