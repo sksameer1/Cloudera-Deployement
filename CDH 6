@@ -4,11 +4,17 @@
 
 
 Oregon - ami-02c8896b265d8c480
+         ami-01ba3b8233297fc27
 
 N.Virginia - ami-0ea6ebbac3980d5c2
+             ami-0857b0ef93a75300f
 
 N. California - ami-004fe9bbe8ddd17a8
+                ami-0ce8df1bc73215555
 
+Ohio         - ami-00de8cf43e5d5293c
+               ami-00126e7521cceb5b3
+                 
 
 
 Start a instance with minimum 8 GB ram (preferably m4.large)
